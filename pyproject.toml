@@ -1,0 +1,31 @@
+[project]
+name = "tgwallet"
+version = "0.1.0"
+description = "Python library for simplified access to Telegram Wallet P2P Market API"
+authors = [
+    { name="Arkadii Halchenko", email="arkadiihalchenko@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+keywords = ["telegram", "wallet", "p2p", "api", "crypto"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "aiohttp>=3.9",
+    "pydantic>=2.5"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+[tool.setuptools.packages.find]
+where = ["."]
+build-backend = "setuptools.build_meta"
