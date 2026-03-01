@@ -17,7 +17,7 @@ Async Python client for Telegram Wallet P2P Market API.
 ## Installation
 
 ```bash
-pip install git+https://github.com/EntireMusic/tgwallet.git
+pip install tgwallet
 ```
 ---
 
